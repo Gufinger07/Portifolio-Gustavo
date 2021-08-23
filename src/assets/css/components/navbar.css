@@ -1,10 +1,11 @@
 .navbar {
-    background-color: rgb(130, 10, 209);
+    background-color: var(--cor--principal);
     font-family: var(--fonte--primaria);
     box-shadow: var(--sobra--)
 }
 
 .nav-itens {
+    font-size: 1.3rem;
     color: white;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -17,6 +18,7 @@
 }
 
 .nav-titulo {
+    font-size: 1.5rem;
     margin-left: 1rem;
 }
 

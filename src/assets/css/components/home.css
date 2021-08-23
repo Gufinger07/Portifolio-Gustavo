@@ -1,0 +1,57 @@
+.container-home {
+    height: 650px;
+    display: flex;
+    margin-top: 7rem;
+    justify-content: center;
+    
+}
+.card {
+    font-family: var(--fonte--secundaria);
+    width: 40rem;
+    height: 37rem;
+    border: none;
+}
+
+.card-texto {
+    color: var(--cor--principal);
+    font-size: 2.7rem;
+    font-weight: 900;
+}
+
+.card-botao {
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    margin-left: 1rem;
+    border: none;
+}
+
+.card-botao__instagram {
+    background-color: rgb(213, 54, 192);    
+}
+
+.card-botao__instagram:hover {
+    background-color: rgb(191, 60, 173); 
+}
+
+.card-imagem__home {
+    margin-left: 8rem;
+    display: none;
+    width: 500px;
+    height: 500px;
+}
+
+.card-gif {
+    height: 400px;
+    width: 400px;
+}
+
+@media screen and (min-width: 991px){
+    .container {
+        flex-direction: row;
+
+    }
+
+    .card-imagem__home {
+        display: initial;
+    }
+}
