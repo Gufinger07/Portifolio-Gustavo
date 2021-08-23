@@ -1,5 +1,5 @@
 .container-home {
-    height: 650px;
+    height: 600px;
     display: flex;
     margin-top: 7rem;
     justify-content: center;
@@ -26,7 +26,7 @@
 }
 
 .card-botao__instagram {
-    background-color: rgb(213, 54, 192);    
+    background-color: var(--cor--secundaria)   
 }
 
 .card-botao__instagram:hover {
@@ -54,4 +54,6 @@
     .card-imagem__home {
         display: initial;
     }
+    
 }
+

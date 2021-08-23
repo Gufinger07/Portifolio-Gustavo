@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
 import "../../assets/css/components/home.css";
-import imagemIlustrativa from "../../assets/img/ux.png"
+import imagemIlustrativa from "../../assets/img/lap.png"
 
 
 function Home() {

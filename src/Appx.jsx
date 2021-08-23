@@ -4,6 +4,7 @@ import "./assets/css/base/variaveis.css";
 import Home from "./components/Home/Home";
 import NavBar from "./components/Navbar/NavBar";
 import Sobre from "./components/Sobre/Sobre"
+import Conhecimento from "./components/Conhecimento/Conhecimento"
 
 function Appx() {
   return (
@@ -11,6 +12,7 @@ function Appx() {
       <NavBar />
       <Home />
       <Sobre />
+      <Conhecimento />
     </>
   );
 }

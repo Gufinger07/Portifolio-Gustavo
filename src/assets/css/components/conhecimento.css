@@ -1,0 +1,49 @@
+.container-conhecimento {
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.card-conhecimento {
+  width: 17rem;
+  height: 17rem;
+}
+
+.card-conhecimento__conhecimento {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-conhecimento__titulo {
+  font-family: var(--fonte--secundaria);
+  color: var(--cor--principal);
+  margin-top: 2rem;
+  font-size: 2.7rem;
+  font-weight: 900;
+}
+
+.card-corpo {
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    display: flex;
+    border-radius: 2px;
+    border: 8px double var(--cor--principal);
+}
+
+.card-corpo__titulo {
+    font-family: var(--fonte--secundaria);
+  color: var(--cor--principal);
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+
+.card-corpo__texto {
+    
+    font-size: 1.2rem;
+}
+

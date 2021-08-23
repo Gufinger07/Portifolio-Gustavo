@@ -1,11 +1,26 @@
 :root {
     --fonte--principal: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     --fonte--secundaria: 'Lobster', cursive;
+    --fonte--terciaria: 'Open Sans', sans-serif;
 
     --cor--principal: rgb(130, 10, 209);
+    --cor--secundaria: rgb(213, 54, 192); 
 
     --sobra--: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
 }
 
 
+body::-webkit-scrollbar {
+    width: 16px;               /* width of the entire scrollbar */
+  }
   
+  body::-webkit-scrollbar-track {
+    background:  #ffcf21; ;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: black ;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #ffcf21;  /* creates padding around scroll thumb */
+  }
+   
