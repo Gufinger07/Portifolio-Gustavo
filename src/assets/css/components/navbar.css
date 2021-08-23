@@ -1,0 +1,25 @@
+.navbar {
+    background-color: rgb(130, 10, 209);
+    font-family: var(--fonte--primaria);
+    box-shadow: var(--sobra--)
+}
+
+.nav-itens {
+    color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.nav-itens__item:hover {
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+
+}
+
+.nav-titulo {
+    margin-left: 1rem;
+}
+
+.nav-hamburger {
+    margin-right: 1rem;
+}
