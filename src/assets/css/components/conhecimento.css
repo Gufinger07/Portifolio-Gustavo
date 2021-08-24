@@ -1,14 +1,25 @@
 .container-conhecimento {
-  height: 300px;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  margin-top: 3rem;
+  width: auto;
 }
 
 .card-conhecimento {
-  width: 17rem;
-  height: 17rem;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  width: 13rem;
+  height: 13rem;
+}
+
+.card-conhecimento:hover .card-corpo__titulo {
+  font-size: 2.8rem;
+}
+.card-conhecimento:hover .card-corpo__texto {
+  display: initial;
 }
 
 .card-conhecimento__conhecimento {
@@ -26,24 +37,48 @@
 }
 
 .card-corpo {
-    flex-direction: column;
-    align-items: center ;
-    justify-content: center;
-    display: flex;
-    border-radius: 2px;
-    border: 8px double var(--cor--principal);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 2px;
+  border: 8px double var(--cor--principal);
+}
+
+.card-corpo:hover {
+  border-color: #4b0082;
 }
 
 .card-corpo__titulo {
-    font-family: var(--fonte--secundaria);
+  font-family: var(--fonte--secundaria);
   color: var(--cor--principal);
   font-size: 2.4rem;
   font-weight: 600;
 }
 
-
 .card-corpo__texto {
-    
-    font-size: 1.2rem;
+  display: none;
+  font-size: 1.3rem;
+  align-self: center;
 }
 
+@media screen and (min-width: 360px) {
+  .card-conhecimento {
+    width: 17rem;
+    height: 17rem;
+  }
+}
+
+@media screen and (min-width: 724px) {
+  .container-conhecimento {
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1471px) {
+  .container-conhecimento {
+    justify-content: flex-start;
+  }
+}

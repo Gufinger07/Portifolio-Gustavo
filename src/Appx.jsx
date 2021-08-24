@@ -1,4 +1,5 @@
 import React from "react";
+import "./assets/css/base/base.css";
 import "./assets/css/base/reset.css";
 import "./assets/css/base/variaveis.css";
 import Home from "./components/Home/Home";

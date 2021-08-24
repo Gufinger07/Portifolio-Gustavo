@@ -29,9 +29,10 @@
 
 .card-imagem__sobre {
     display: none;
-    width: 640px;
-    height: 320px;
-    margin-right: 15rem;
+    width: 600px;
+    height: 500px;
+    margin-right: 10rem;
+    
 }
 
 .card-sobre__cartao {
@@ -40,8 +41,11 @@
     justify-content: center;
 }
 
-@media screen and (min-width: 991px){
+
+
+@media screen and (min-width: 1105px){
     .card-imagem__sobre {
-        display: initial;   
+        display: initial; 
+        margin-left: 2rem;  
     }
 }

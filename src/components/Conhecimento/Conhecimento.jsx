@@ -14,54 +14,54 @@ function Conhecimento() {
         <Card className="card-conhecimento">
           <Card.Body className="card-corpo">
             <Card.Title className="card-corpo__titulo">HTML 5</Card.Title>
-            <Card.Text>1 Ano de experiência</Card.Text>
-          </Card.Body>
-        </Card>
-        <Card className="card-conhecimento">
-          <Card.Body className="card-corpo">
-            <Card.Title className="card-corpo__titulo">HTML 5</Card.Title>
-            <Card.Text>1 Ano de experiência</Card.Text>
-          </Card.Body>
-        </Card>
-        <Card className="card-conhecimento">
-          <Card.Body className="card-corpo">
-            <Card.Title className="card-corpo__titulo">HTML 5</Card.Title>
-            <Card.Text>1 Ano de experiência</Card.Text>
-          </Card.Body>
-        </Card>
-        <Card className="card-conhecimento">
-          <Card.Body className="card-corpo">
-            <Card.Title className="card-corpo__titulo">HTML 5</Card.Title>
-            <Card.Text>1 Ano de experiência</Card.Text>
-          </Card.Body>
-        </Card>
-      </div>
-      <div className="container-conhecimento">
-        <Card className="card-conhecimento">
-          <Card.Body className="card-corpo">
-            <Card.Title className="card-corpo__titulo">HTML 5</Card.Title>
-            <Card.Text>1 Ano de experiência</Card.Text>
-          </Card.Body>
-        </Card>
-        <Card className="card-conhecimento">
-          <Card.Body className="card-corpo">
-            <Card.Title className="card-corpo__titulo">HTML 5</Card.Title>
             <Card.Text className="card-corpo__texto">1 Ano de experiência</Card.Text>
           </Card.Body>
         </Card>
         <Card className="card-conhecimento">
           <Card.Body className="card-corpo">
-            <Card.Title className="card-corpo__titulo">HTML 5</Card.Title>
-            <Card.Text>1 Ano de experiência</Card.Text>
+            <Card.Title className="card-corpo__titulo">CSS</Card.Title>
+            <Card.Text className="card-corpo__texto">1 Ano de experiência</Card.Text>
           </Card.Body>
         </Card>
         <Card className="card-conhecimento">
           <Card.Body className="card-corpo">
-            <Card.Title className="card-corpo__titulo">HTML 5</Card.Title>
-            <Card.Text>1 Ano de experiência</Card.Text>
+            <Card.Title className="card-corpo__titulo">Javascript</Card.Title>
+            <Card.Text className="card-corpo__texto">1 Ano de experiência</Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className="card-conhecimento">
+          <Card.Body className="card-corpo">
+            <Card.Title className="card-corpo__titulo">Bootstrap</Card.Title>
+            <Card.Text className="card-corpo__texto">10 Mêses de experiência</Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className="card-conhecimento">
+          <Card.Body className="card-corpo">
+            <Card.Title className="card-corpo__titulo">Jquery</Card.Title>
+            <Card.Text className="card-corpo__texto">8 Mêses de experiência</Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className="card-conhecimento">
+          <Card.Body className="card-corpo">
+            <Card.Title className="card-corpo__titulo">React-Js</Card.Title>
+            <Card.Text className="card-corpo__texto">6 Mêses de experiência</Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className="card-conhecimento">
+          <Card.Body className="card-corpo">
+            <Card.Title className="card-corpo__titulo">Node-Js</Card.Title>
+            <Card.Text className="card-corpo__texto">3 Mêses de experiência</Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className="card-conhecimento">
+          <Card.Body className="card-corpo">
+            <Card.Title className="card-corpo__titulo">MySql</Card.Title>
+            <Card.Text className="card-corpo__texto">10 Mêses de experiência</Card.Text>
           </Card.Body>
         </Card>
       </div>
+      
+        
     </>
   );
 }

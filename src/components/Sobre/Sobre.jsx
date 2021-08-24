@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
 import "../../assets/css/components/sobre.css";
-import imagemIlustrativa from "../../assets/img/sobre.png";
+import imagemIlustrativa from "../../assets/img/compu.png";
 
 function Sobre() {
   return (
