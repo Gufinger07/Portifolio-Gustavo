@@ -59,6 +59,12 @@ function Conhecimento() {
             <Card.Text className="card-corpo__texto">10 Mêses de experiência</Card.Text>
           </Card.Body>
         </Card>
+        <Card className="card-conhecimento">
+          <Card.Body className="card-corpo">
+            <Card.Title className="card-corpo__titulo">Git</Card.Title>
+            <Card.Text className="card-corpo__texto">1 Ano de experiência</Card.Text>
+          </Card.Body>
+        </Card>
       </div>
       
         

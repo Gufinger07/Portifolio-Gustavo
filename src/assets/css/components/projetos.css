@@ -1,0 +1,18 @@
+.container-projetos {
+  height: 600px;
+  background-color: var(--cor--principal);
+  margin-top: 3rem;
+}
+
+.card-projetos__titulo {
+  margin-top: 2rem;
+  font-size: 2.7rem;
+  font-weight: 900;
+  font-family: var(--fonte--secundaria);
+  color: var(--cor--terciaria);
+}
+
+.card-projetos__projetos {
+    width: 25rem;
+    background-color: var(--cor--principal);
+}

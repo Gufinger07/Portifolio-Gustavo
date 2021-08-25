@@ -22,7 +22,7 @@ function Sobre() {
           </Card.Text>
           <Card.Text className="card-sobre__paragrafo">
             Começei a focar como desenvolvedor Front-End em 2020, desde então
-            consegui aprender bastante coisa e desenvolver diversos projetos pessoais.
+            consegui aprender bastante e desenvolver diversos projetos pessoais.
           </Card.Text>
           <Button size="lg" className="card-botao card-botao__curriculo" variant="warning">Currículo</Button>
         </Card.Body>

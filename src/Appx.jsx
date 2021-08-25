@@ -6,6 +6,7 @@ import Home from "./components/Home/Home";
 import NavBar from "./components/Navbar/NavBar";
 import Sobre from "./components/Sobre/Sobre"
 import Conhecimento from "./components/Conhecimento/Conhecimento"
+import Projetos from "./components/Projetos/Projetos"
 
 function Appx() {
   return (
@@ -14,6 +15,7 @@ function Appx() {
       <Home />
       <Sobre />
       <Conhecimento />
+      <Projetos />
     </>
   );
 }
