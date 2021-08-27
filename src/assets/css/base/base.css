@@ -11,3 +11,8 @@ body::-webkit-scrollbar-thumb {
   border-radius: 20px; /* roundness of the scroll thumb */
   border: 3px solid var(--cor--secundaria); /* creates padding around scroll thumb */
 }
+
+
+html {
+  scroll-behavior: smooth;
+}

@@ -46,7 +46,7 @@
 }
 
 .card-corpo:hover {
-  border-color: #b8860b;
+  background-color: var(--cor--secundaria);
 }
 
 .card-corpo__titulo {

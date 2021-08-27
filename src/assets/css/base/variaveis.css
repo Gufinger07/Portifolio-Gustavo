@@ -3,9 +3,11 @@
     --fonte--secundaria: 'Lobster', cursive;
     --fonte--terciaria: 'Open Sans', sans-serif;
 
-    --cor--principal: #9932cc;
-    --cor--secundaria: #b8860b ;
+    --cor--principal: #49274a;
+    --cor--secundaria: #f4decb ;
     --cor--terciaria: rgb(255, 255, 255); 
+    
+
 
     --sobra--: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
 }

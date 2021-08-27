@@ -7,6 +7,8 @@ import NavBar from "./components/Navbar/NavBar";
 import Sobre from "./components/Sobre/Sobre"
 import Conhecimento from "./components/Conhecimento/Conhecimento"
 import Projetos from "./components/Projetos/Projetos"
+import Contato from "./components/Contato/Contato"
+
 
 function Appx() {
   return (
@@ -16,6 +18,7 @@ function Appx() {
       <Sobre />
       <Conhecimento />
       <Projetos />
+      <Contato />
     </>
   );
 }

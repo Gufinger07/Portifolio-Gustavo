@@ -42,11 +42,12 @@
 }
 
 .card-botao__curriculo {
-    background-color: #b8860b;
+    background-color: var(--cor--secundaria);
+    color: black;
 }
 
 .card-botao__curriculo:hover {
-    background-color: #a57b12;
+    background-color: #d1af90;
 } 
     
 
