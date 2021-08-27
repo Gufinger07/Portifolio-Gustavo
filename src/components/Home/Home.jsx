@@ -10,9 +10,9 @@ function Home() {
       <Card className="card">
         <Card.Body>
           <Card.Title className="card-texto">Olá, meu nome é Gustavo Finger e atuo como Desenvolvedor Front-End</Card.Title>
-          <Button size="lg" className="card-botao card-botao__git" variant="dark"> Github</Button>
-          <Button size="lg" className="card-botao card-botao__linkedin" variant="primary">Linkedin</Button>
-          <Button size="lg" className="card-botao card-botao__instagram">Instagram</Button>
+          <Button target="_blank" href="https://github.com/Gufinger07" size="lg" className="card-botao card-botao__git" variant="dark"> Github</Button>
+          <Button target="_blank" href="https://www.linkedin.com/in/gustavo-finger-dev/" size="lg" className="card-botao card-botao__linkedin" variant="primary">Linkedin</Button>
+          <Button target="_blank" href="https://www.instagram.com/gustavo_cfinger/?hl=pt-br" size="lg" className="card-botao card-botao__instagram">Instagram</Button>
         </Card.Body>
       </Card>
       <img className="card-imagem__home" src={imagemIlustrativa} alt="Imagem ilustrativa do componente Home"/>
