@@ -4,6 +4,10 @@
   height: auto;
 }
 
+.card-projetos__title {
+  font-size: 1.5rem;
+}
+
 .card-projetos__titulo {
   font-size: 2.7rem;
   font-weight: 900;
@@ -12,11 +16,12 @@
   align-self: center;
 }
 
-
 .card-projetos__projetospar {
   width: 25rem;
   height: 33rem;
   background-color: var(--cor--principal);
+  display: flex;
+  align-items: center;
 }
 
 .card-projetos {
@@ -42,6 +47,7 @@
 .card-projetos__corpo {
   display: none;
  
+  
 }
 .card-projetos__projetos:hover .card-projetos__corpo{
   display: initial;

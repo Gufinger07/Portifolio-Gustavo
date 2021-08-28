@@ -13,6 +13,7 @@
   margin-right: 3rem;
   width: 13rem;
   height: 13rem;
+  
 }
 
 .card-conhecimento:hover .card-corpo__titulo {
@@ -26,6 +27,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .card-conhecimento__titulo {
@@ -41,12 +43,15 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  border-radius: 2px;
-  border: 8px double var(--cor--principal);
+  border-radius: 2rem;
+  transition: height, 1s
+  
 }
 
 .card-corpo:hover {
+  border: 8px double var(--cor--principal);
   background-color: var(--cor--secundaria);
+  
 }
 
 .card-corpo__titulo {

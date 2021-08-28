@@ -9,7 +9,6 @@ import Conhecimento from "./components/Conhecimento/Conhecimento"
 import Projetos from "./components/Projetos/Projetos"
 import Contato from "./components/Contato/Contato"
 
-
 function Appx() {
   return (
     <>
@@ -19,6 +18,7 @@ function Appx() {
       <Conhecimento />
       <Projetos />
       <Contato />
+     
     </>
   );
 }
