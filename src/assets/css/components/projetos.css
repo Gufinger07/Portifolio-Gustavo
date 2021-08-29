@@ -17,8 +17,8 @@
 }
 
 .card-projetos__projetospar {
-  width: 25rem;
   height: 33rem;
+  width: 16rem;
   background-color: var(--cor--principal);
   display: flex;
   align-items: center;
@@ -91,6 +91,12 @@
 }
 
 
+
+@media screen and (min-width: 454px) {
+  .card-projetos__projetospar {
+    width: 25rem;
+  }
+} 
 
 @media screen and (min-width: 724px) {
   .card-display {

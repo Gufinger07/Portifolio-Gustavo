@@ -25,11 +25,14 @@ function Sobre() {
             Começei a focar como desenvolvedor Front-End em 2020, desde então
             consegui aprender bastante e desenvolver diversos projetos pessoais.
           </Card.Text>
-
-          <Button href={pdf} target="_blank" size="lg" className="card-botao card-botao__curriculo">
+          <Button
+            href={pdf}
+            target="_blank"
+            size="lg"
+            className="card-botao card-botao__curriculo"
+          >
             Currículo
           </Button>
-          
         </Card.Body>
       </Card>
     </div>
