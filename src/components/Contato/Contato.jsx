@@ -19,7 +19,7 @@ function Contato() {
       </div>
       <CardGroup className="card-contato__grupo">
         <Card className="card-contato__card">
-          <Card.Img className="card-contato__imagem" src={email} />
+          <Card.Img className="card-contato__imagem" src={email} alt="imagem ilustrativa email"/>
 
           <Card.Title className="card-card__titulo">Email</Card.Title>
           <Card.Text className="card-card__texto">
@@ -36,7 +36,7 @@ function Contato() {
           <span className="card-card-span">{mensagemSpan}</span>
         </Card>
         <Card className="card-contato__card">
-          <Card.Img className="card-contato__imagem" src={celular} />
+          <Card.Img className="card-contato__imagem" src={celular} alt="imagem ilustrativa telefone"/>
           <Card.Title className="card-card__titulo">
             Telefone/WhatsApp
           </Card.Title>
@@ -53,7 +53,7 @@ function Contato() {
           </Card.Text>
         </Card>
         <Card className="card-contato__card">
-          <Card.Img className="card-contato__imagem" src={website} />
+          <Card.Img className="card-contato__imagem" src={website} alt="imagem ilustrativa website"/>
 
           <Card.Title className="card-card__titulo">WebSite</Card.Title>
           <Card.Text className="card-card__texto">

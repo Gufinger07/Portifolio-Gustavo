@@ -10,7 +10,7 @@ function Sobre() {
       <img
         className="card-imagem__sobre"
         src={imagemIlustrativa}
-        alt="Imagem ilustrativa do componente Home"
+        alt="Imagem ilustrativa do componente sobre"
       />
       <Card className="card-sobre">
         <Card.Body className="card-sobre__cartao">
@@ -19,8 +19,9 @@ function Sobre() {
             Meu Nome é Gustavo, tenho 20 anos e moro em Brasília-DF. Hoje estou
             cursando Ciência da computação, atualmente no 6º semestre. Também
             estudo bastante por conta própria a fim de aprender novas
-            tecnologias. <br />
+            tecnologias e implementar projetos pessoais. <br />
           </Card.Text>
+          
           <Card.Text className="card-sobre__paragrafo">
             Começei a focar como desenvolvedor Front-End em 2020, desde então
             consegui aprender bastante e desenvolver diversos projetos pessoais.

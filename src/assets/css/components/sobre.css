@@ -1,6 +1,6 @@
 .container-sobre {
     
-    height: 600px;
+    
     display: flex;
     margin-top: 2rem;
     align-items: center;
@@ -26,7 +26,7 @@
 .card-sobre__paragrafo {
     
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-top: 1rem;
 }
 
@@ -61,5 +61,8 @@
     .card-imagem__sobre {
         display: initial; 
         margin-left: 2rem;  
+    }
+    .card-sobre__paragrafo {
+        font-size: 1.4rem;
     }
 }

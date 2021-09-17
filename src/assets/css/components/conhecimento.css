@@ -16,6 +16,7 @@
   width: 100%;
 }
 
+
 .custom-button:focus {
   outline: none !important;
   -webkit-box-shadow: none !important;
@@ -25,14 +26,18 @@
 .card-conhecimento {
   width: 135px
 
-  
 }
 
-.card-conhecimento:hover .card-corpo__titulo {
-  font-size: 2.8rem;
+.grupo-botoes {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.card-conhecimento:hover .card-corpo__texto {
-  display: initial;
+
+.botao-conhecimento {
+  width: 140px;
 }
 
 .card-conhecimento__conhecimento {
@@ -50,32 +55,10 @@
   font-weight: 900;
 }
 
-.card-corpo {
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  border-radius: 2rem;
-  transition: height, 1s
+@media screen and (min-width: 620px){
+  .grupo-botoes {
+    width: 35rem;
+    flex-direction: row;
+  }
   
 }
-
-.card-corpo:hover {
-  border: 8px double var(--cor--principal);
-  background-color: var(--cor--secundaria);
-  
-}
-
-.card-corpo__titulo {
-  font-family: var(--fonte--secundaria);
-  color: var(--cor--principal);
-  font-size: 2.4rem;
-  font-weight: 600;
-}
-
-.card-corpo__texto {
-  display: none;
-  font-size: 1.3rem;
-  align-self: center;
-}
-
