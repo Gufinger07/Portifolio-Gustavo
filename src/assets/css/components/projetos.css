@@ -22,6 +22,7 @@
   background-color: var(--cor--principal);
   display: flex;
   align-items: center;
+  
 }
 
 .card-projetos {
@@ -36,6 +37,7 @@
   letter-spacing: 0.01rem;
   font-size: 1.1rem;
   font-weight: 500;
+  letter-spacing: .05em
 }
 
 .card-projetos__grupobotoes {
