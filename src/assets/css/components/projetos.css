@@ -33,7 +33,7 @@
 
 .card-projetos__texto {
   font-family: var(--fonte--principal);
-
+  letter-spacing: 0.01rem;
   font-size: 1.1rem;
   font-weight: 500;
 }

@@ -32,8 +32,8 @@ function Conhecimento() {
               <div className="card-projetos__grupobotoes">
                
 
-                <Button target="_blank" href="https://github.com/Gufinger07/CalcularImc" className="botao-projetos__git" variant="dark">
-                  View Github
+                <Button target="_blank" href="https://github.com/Gufinger07/CalcularImc" className="botao-projetos__git custom-button" variant="dark">
+                Ver no GitHub
                 </Button>
               </div>
             </Card.Body>
@@ -51,8 +51,8 @@ function Conhecimento() {
               </Card.Text>
               <div className="card-projetos__grupobotoes">
                 
-                <Button target="_blank" href="https://github.com/Gufinger07/Signo-Router" className="botao-projetos__git" variant="dark">
-                  View Github
+                <Button target="_blank" href="https://github.com/Gufinger07/Signo-Router" className="botao-projetos__git custom-button" variant="dark">
+                  Ver no GitHub
                 </Button>
               </div>
             </Card.Body>
@@ -70,8 +70,8 @@ function Conhecimento() {
               </Card.Text>
               <div className="card-projetos__grupobotoes">
                 
-                <Button target="_blank" href="https://github.com/Gufinger07/LDP-Router" className="botao-projetos__git" variant="dark">
-                  View Github
+                <Button custom-button target="_blank" href="https://github.com/Gufinger07/LDP-Router" className="botao-projetos__git custom-button" variant="dark">
+                  Ver no GitHub
                 </Button>
               </div>
             </Card.Body>
@@ -85,12 +85,12 @@ function Conhecimento() {
               
               <Card.Text className="card-projetos__texto">
                 Projeto desenvolvido em Html, Css e Javascript puro, com o
-                objetivo de reproduzir convites dinamicamente.
+                objetivo de reproduzir convites e lista de convidados.
               </Card.Text>
               <div className="card-projetos__grupobotoes">
                 
-                <Button target="_blank" href="https://github.com/Gufinger07/Projeto-Gerador-de-Convites" className="botao-projetos__git" variant="dark">
-                  View Github
+                <Button custom-button target="_blank" href="https://github.com/Gufinger07/Projeto-Gerador-de-Convites" className="botao-projetos__git custom-button" variant="dark">
+                  Ver no GitHub
                 </Button>
               </div>
             </Card.Body>
@@ -108,8 +108,8 @@ function Conhecimento() {
               </Card.Text>
               <div className="card-projetos__grupobotoes">
               
-                <Button target="_blank" href="https://github.com/Gufinger07/Formulario-React" className="botao-projetos__git" variant="dark">
-                  View Github
+                <Button custom-button target="_blank" href="https://github.com/Gufinger07/Formulario-React" className="botao-projetos__git custom-button" variant="dark">
+                Ver no GitHub
                 </Button>
               </div>
             </Card.Body>
@@ -117,7 +117,7 @@ function Conhecimento() {
           <Card className="card-projetos__projetospar">
             <Card.Img variant="top" src={imagemNote} />
             <Card.Title className="card-projetos__title">
-                Note Maker
+              Fazedor de Notas
               </Card.Title>
             <Card.Body className="card-projetos__corpo">
              
@@ -127,8 +127,8 @@ function Conhecimento() {
               </Card.Text>
               <div className="card-projetos__grupobotoes">
                 
-                <Button target="_blank" href="https://github.com/Gufinger07/FazedorDeNotas" className="botao-projetos__git" variant="dark">
-                  View Github
+                <Button custom-button target="_blank" href="https://github.com/Gufinger07/FazedorDeNotas" className="botao-projetos__git custom-button" variant="dark">
+                Ver no GitHub
                 </Button>
               </div>
             </Card.Body>
@@ -145,8 +145,8 @@ function Conhecimento() {
               </Card.Text>
               <div className="card-projetos__grupobotoes">
                 
-                <Button target="_blank" href="https://github.com/Gufinger07/Projeto_digitacao_game" className="botao-projetos__git" variant="dark">
-                  View Github
+                <Button custom-button target="_blank" href="https://github.com/Gufinger07/Projeto_digitacao_game" className="botao-projetos__git custom-button" variant="dark">
+                Ver no GitHub
                 </Button>
               </div>
             </Card.Body>
@@ -164,8 +164,8 @@ function Conhecimento() {
               </Card.Text>
               <div className="card-projetos__grupobotoes">
                 
-                <Button target="_blank" href="https://github.com/Gufinger07/Graph-Maker" className="botao-projetos__git" variant="dark">
-                  View Github
+                <Button target="_blank" href="https://github.com/Gufinger07/Graph-Maker" className="botao-projetos__git custom-button" variant="dark">
+                Ver no GitHub
                 </Button>
               </div>
             </Card.Body>

@@ -31,10 +31,43 @@
       align-items: center;
       margin-bottom: 2rem;
   }
+  .card-contato__grupo {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
 
+  .card-contato__card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 200px;
+  }
+
+  .card-contato__imagem {
+      width: 128px;
+  }
+
+  .card-card__titulo {
+      margin-top: 1rem;
+      font-family: var(--fonte--secundaria);
+  }
+
+  .card-card__texto {
+      margin-top: 1rem;
+      font-family: var(--fonte--secundaria);
+  }
+
+  .card-card-span {
+      margin-top: 1rem;
+  }
   @media screen and (min-width: 991px) {
     .card-contato__corpo {
         flex-direction: row;
         justify-content: space-around;
+    }
+    .card-contato__grupo {
+        flex-direction: row;
     }
 }

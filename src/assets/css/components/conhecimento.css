@@ -1,18 +1,30 @@
 .container-conhecimento {
-  display: flex;
+  display: flex ;
   flex-direction: column;
-  justify-content: center;
+  margin-top: 1rem;
   align-items: center;
+  justify-content: space-around;
+  width: 100%; 
+}
+
+
+.grupo-conhecimentos {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: space-around;
   flex-wrap: wrap;
-  width: auto;
+  width: 100%;
+}
+
+.custom-button:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .card-conhecimento {
-  margin-top: 3rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  width: 13rem;
-  height: 13rem;
+  width: 135px
+
   
 }
 
@@ -67,23 +79,3 @@
   align-self: center;
 }
 
-@media screen and (min-width: 360px) {
-  .card-conhecimento {
-    width: 17rem;
-    height: 17rem;
-  }
-}
-
-@media screen and (min-width: 724px) {
-  .container-conhecimento {
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-}
-
-@media screen and (min-width: 1471px) {
-  .container-conhecimento {
-    justify-content: flex-start;
-  }
-}

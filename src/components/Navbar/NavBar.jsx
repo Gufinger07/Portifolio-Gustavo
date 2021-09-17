@@ -6,11 +6,7 @@ import { Link } from "react-scroll";
 function NavBar() {
   return (
     <Navbar className="navbar" expand="lg" variant="dark" fixed="top">
-      <Link to="container-home" smooth={true} duration={1000}>
-        <Navbar.Brand className="nav-titulo">
-          Portifólio
-        </Navbar.Brand>
-      </Link>
+      <Navbar.Brand className="nav-titulo">Gustavo Finger</Navbar.Brand>
 
       <Navbar.Toggle
         aria-controls="responsive-navbar-nav"
@@ -20,10 +16,9 @@ function NavBar() {
         className="justify-content-end"
         id="responsive-navbar-nav"
       >
-        <Nav>
+        <Nav className="nav">
           <Nav.Item className="nav-itens">
             <Link to="container-sobre" smooth={true} duration={1000}>
-    
               <Nav.Link active>Sobre Mim</Nav.Link>
             </Link>
           </Nav.Item>
@@ -33,18 +28,21 @@ function NavBar() {
               smooth={true}
               duration={1000}
             >
-              
               <Nav.Link active>Conhecimentos</Nav.Link>
             </Link>
           </Nav.Item>
           <Nav.Item className="nav-itens">
             <Link to="container-projetos" smooth={true} duration={1000}>
-              <Nav.Link active>Projetos</Nav.Link>
+              <Nav.Link className="nav-itens__item" active>
+                Projetos
+              </Nav.Link>
             </Link>
           </Nav.Item>
           <Nav.Item className="nav-itens">
-          <Link to="card-contato" smooth={true} duration={1000}> <Nav.Link active>Contato</Nav.Link> </Link>
-            
+            <Link to="card-contato" smooth={true} duration={1000}>
+              {" "}
+              <Nav.Link active>Contato</Nav.Link>{" "}
+            </Link>
           </Nav.Item>
         </Nav>
       </Navbar.Collapse>
