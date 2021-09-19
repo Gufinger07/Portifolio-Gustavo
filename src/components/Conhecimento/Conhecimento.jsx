@@ -16,6 +16,8 @@ function Conhecimento() {
     <BancoDeDados />,
     <Versionamento />,
   ];
+  
+ 
   return (
     <>
       <div className="card-conhecimento__conhecimento">
@@ -26,6 +28,7 @@ function Conhecimento() {
       <div className="container-conhecimento">
         <div className="grupo-botoes">
           <Button
+            
             onClick={() => setEtapaAtual(0)}
             variant="outline-danger"
             className="custom-button botao-conhecimento"
@@ -43,6 +46,7 @@ function Conhecimento() {
             Back-End
           </Button>
           <Button
+          
             onClick={() => setEtapaAtual(2)}
             variant="outline-danger"
             className="custom-button botao-conhecimento"

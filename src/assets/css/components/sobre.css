@@ -28,7 +28,7 @@
     color: white;
     font-size: 1.3rem;
     margin-top: 1rem;
-    letter-spacing: .10em
+    letter-spacing: .05em
 }
 
 .card-imagem__sobre {
@@ -56,14 +56,15 @@
     
 } 
     
-
-
-@media screen and (min-width: 1105px){
+@media screen and (min-width: 865px){
+    
+    .card-sobre__paragrafo {
+        font-size: 1.4rem;
+    }
+}
+@media screen and (min-width: 1124px) {
     .card-imagem__sobre {
         display: initial; 
         margin-left: 2rem;  
-    }
-    .card-sobre__paragrafo {
-        font-size: 1.4rem;
     }
 }
