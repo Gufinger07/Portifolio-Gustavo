@@ -10,7 +10,7 @@ function Versionamento() {
         <div className="grupo-conhecimentos">
           <Card className="card-conhecimento">
             <Card.Img variant="top" src={git} alt="imagem ilustrativa git"/>
-            <Card.Body>
+            <Card.Body className="card-corpo">
               <Card.Title>Git</Card.Title>
               <Card.Text>1 Ano de experiência</Card.Text>
             </Card.Body>

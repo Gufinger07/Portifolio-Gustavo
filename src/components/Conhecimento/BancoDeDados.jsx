@@ -10,7 +10,7 @@ function BancoDeDados() {
         <div className="grupo-conhecimentos">
           <Card className="card-conhecimento">
             <Card.Img variant="top" src={mysql} alt="imagem ilustrativa mysql"/>
-            <Card.Body>
+            <Card.Body className="card-corpo">
               <Card.Title>MySql</Card.Title>
               <Card.Text>10 Mêses de experiência</Card.Text>
             </Card.Body>

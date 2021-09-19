@@ -14,42 +14,42 @@ function Frontend() {
         <div className="grupo-conhecimentos">
           <Card className="card-conhecimento">
             <Card.Img variant="top" src={html} alt="imagem ilustrativa html" />
-            <Card.Body>
+            <Card.Body className="card-corpo"> 
               <Card.Title>Html 5</Card.Title>
               <Card.Text>1 Ano de experiência</Card.Text>
             </Card.Body>
           </Card>
           <Card className="card-conhecimento">
             <Card.Img variant="top" src={css} alt="imagem ilustrativa css"/>
-            <Card.Body>
+            <Card.Body className="card-corpo">
               <Card.Title>CSS</Card.Title>
               <Card.Text>1 Ano de experiência</Card.Text>
             </Card.Body>
           </Card>
           <Card className="card-conhecimento">
             <Card.Img variant="top" src={javascript} alt="imagem ilustrativa javascript"/>
-            <Card.Body>
+            <Card.Body className="card-corpo">
               <Card.Title>JavasCript</Card.Title>
               <Card.Text>1 Ano de experiência</Card.Text>
             </Card.Body>
           </Card>
           <Card className="card-conhecimento">
             <Card.Img variant="top" src={react} alt="imagem ilustrativa react"/>
-            <Card.Body>
+            <Card.Body className="card-corpo">
               <Card.Title>React</Card.Title>
               <Card.Text>6 Mêses de experiência</Card.Text>
             </Card.Body>
           </Card>
           <Card className="card-conhecimento">
             <Card.Img variant="top" src={jquery} alt="imagem ilustrativa jquery"/>
-            <Card.Body>
+            <Card.Body className="card-corpo">
               <Card.Title>jQuery</Card.Title>
               <Card.Text>8 Mêses de experiência</Card.Text>
             </Card.Body>
           </Card>
           <Card className="card-conhecimento">
             <Card.Img variant="top" src={bootstrap} alt="imagem ilustrativa bootstrap"/>
-            <Card.Body>
+            <Card.Body className="card-corpo">
               <Card.Title>Bootstrap</Card.Title>
               <Card.Text>10 Mêses de experiência</Card.Text>
             </Card.Body>

@@ -28,6 +28,12 @@
 
 }
 
+.card-corpo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
 .grupo-botoes {
   width: 20rem;
   display: flex;

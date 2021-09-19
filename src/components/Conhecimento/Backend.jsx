@@ -11,21 +11,21 @@ function Backend() {
         <div className="grupo-conhecimentos">
           <Card className="card-conhecimento">
             <Card.Img variant="top" src={python} alt="imagem ilustrativa python"/>
-            <Card.Body>
+            <Card.Body className="card-corpo">
               <Card.Title>Python</Card.Title>
               <Card.Text>2 anos de experiência</Card.Text>
             </Card.Body>
           </Card>
           <Card className="card-conhecimento">
             <Card.Img variant="top" src={node} alt="imagem ilustrativa node-js"/>
-            <Card.Body>
+            <Card.Body className="card-corpo">
               <Card.Title>Node-Js</Card.Title>
               <Card.Text>6 Mêses de experiência</Card.Text>
             </Card.Body>
           </Card>
           <Card className="card-conhecimento">
             <Card.Img variant="top" src={java} alt="imagem ilustrativa java"/>
-            <Card.Body>
+            <Card.Body className="card-corpo">
               <Card.Title>Java</Card.Title>
               <Card.Text>4 Mêses de experiência</Card.Text>
             </Card.Body>
