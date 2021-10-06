@@ -9,6 +9,8 @@ import imagemForm from "../../assets/img/projetoform.png";
 import imagemNote from "../../assets/img/projetonote.png";
 import imagemType from "../../assets/img/projetotype.png";
 import imagemGraph from "../../assets/img/projetograph.png";
+import imagemQuizz from "../../assets/img/projetoquizz.png"
+import imagemBanco from "../../assets/img/projetobanco.png"
 
 function Conhecimento() {
   return (
@@ -165,6 +167,42 @@ function Conhecimento() {
               <div className="card-projetos__grupobotoes">
                 
                 <Button target="_blank" href="https://github.com/Gufinger07/Graph-Maker" className="botao-projetos__git custom-button" variant="dark">
+                Ver no GitHub
+                </Button>
+              </div>
+            </Card.Body>
+          </Card>
+          <Card className="card-projetos__projetospar">
+            <Card.Img variant="top" src={imagemQuizz} />
+            <Card.Title className="card-projetos__title">
+                Quizz Gustavo
+            </Card.Title>
+            <Card.Body className="card-projetos__corpo">
+              
+              <Card.Text className="card-projetos__texto">
+                Um Quizz desenvolvido em React como várias etapas e salvando o progresso do usuário, com o resultado no final.
+              </Card.Text>
+              <div className="card-projetos__grupobotoes">
+                
+                <Button target="_blank" href="https://github.com/Gufinger07/Quizz-Gustavo" className="botao-projetos__git custom-button" variant="dark">
+                Ver no GitHub
+                </Button>
+              </div>
+            </Card.Body>
+          </Card>
+          <Card className="card-projetos__projetospar">
+            <Card.Img variant="top" src={imagemBanco} />
+            <Card.Title className="card-projetos__title">
+                GF Bank
+            </Card.Title>
+            <Card.Body className="card-projetos__corpo">
+              
+              <Card.Text className="card-projetos__texto">
+                Projeto desenvolvido em React que simula o comportamento de um banco digital, com um banco de dados integrado.
+              </Card.Text>
+              <div className="card-projetos__grupobotoes">
+                
+                <Button target="_blank" href="https://github.com/Gufinger07/Banco-Com-React" className="botao-projetos__git custom-button" variant="dark">
                 Ver no GitHub
                 </Button>
               </div>
