@@ -28,7 +28,8 @@
     color: white;
     font-size: 1.3rem;
     margin-top: 1rem;
-    letter-spacing: .05em
+    letter-spacing: .05em;
+    font-style: italic;
 }
 
 .card-imagem__sobre {

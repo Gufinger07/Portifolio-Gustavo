@@ -35,15 +35,24 @@
   
 }
 .grupo-botoes {
-  width: 20rem;
+  width: 40rem !important;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .botao-conhecimento {
   width: 140px;
+  background-color: var(--cor--secundaria);
+  color: #000;
+  border-color: var(--cor--secundaria);
+}
+
+.botao-conhecimento:hover {
+  background-color: var(--cor--principal);
+  border-color: var(--cor--principal);
 }
 
 .card-conhecimento__conhecimento {
@@ -67,4 +76,9 @@
     flex-direction: row;
   }
   
+}
+
+.botao-ativo {
+  background-color: var(--cor--principal);
+ color: white;
 }

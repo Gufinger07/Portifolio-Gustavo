@@ -17,7 +17,7 @@ function Sobre() {
           <Card.Title className="card-sobre__titulo">Sobre mim</Card.Title>
           <Card.Text className="card-sobre__paragrafo">
             Meu Nome é Gustavo, tenho 20 anos e moro em Brasília-DF. Hoje estou
-            cursando Ciência da computação, atualmente no 6º semestre. Também
+            cursando Ciência da computação, atualmente no 7º semestre. Também
             estudo bastante por conta própria a fim de aprender novas
             tecnologias e implementar projetos pessoais. <br />
           </Card.Text>
@@ -30,7 +30,7 @@ function Sobre() {
             href={pdf}
             target="_blank"
             size="lg"
-            className="card-botao card-botao__curriculo"
+            className="card-botao card-botao__curriculo custom-button"
           >
             Currículo
           </Button>

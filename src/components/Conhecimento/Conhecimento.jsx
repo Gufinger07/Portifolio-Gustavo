@@ -8,6 +8,9 @@ import Versionamento from "../Conhecimento/Versionamento";
 
 function Conhecimento() {
   const [etapaAtual, setEtapaAtual] = useState(0);
+  const [botaoAtivo, setBotaoAtivo] = useState(["botao-ativo","none","none","none"])
+
+  
 
   const etapas = [
     <Frontend />,
@@ -26,33 +29,46 @@ function Conhecimento() {
       <div className="container-conhecimento">
         <div className="grupo-botoes">
           <Button
-            onClick={() => setEtapaAtual(0)}
+            onClick={() => {
+              setBotaoAtivo(["botao-ativo","none","none","none"])
+              setEtapaAtual(0)
+            }}
             variant="outline-danger"
-            className="custom-button botao-conhecimento"
+            className={`custom-button botao-conhecimento ${botaoAtivo[0]}`}
             id="button-addon1"
           >
             Front-End
           </Button>
           <Button
-            onClick={() => setEtapaAtual(1)}
+            
+            onClick={() => {
+              setBotaoAtivo(["none","botao-ativo","none","none"])
+              setEtapaAtual(1)
+            }}
             variant="outline-danger"
-            className="custom-button botao-conhecimento"
+            className={`custom-button botao-conhecimento ${botaoAtivo[1]}`}
             id="button-addon1"
           >
             Back-End
           </Button>
           <Button
-            onClick={() => setEtapaAtual(2)}
+            onClick={() => {
+              setBotaoAtivo(["none","none","botao-ativo","none"])
+              setEtapaAtual(2)
+            }}
             variant="outline-danger"
-            className="custom-button botao-conhecimento"
+            className={`custom-button botao-conhecimento ${botaoAtivo[2]}`}
             id="button-addon1"
           >
             Banco de Dados
           </Button>
           <Button
-            onClick={() => setEtapaAtual(3)}
+            onClick={() => {
+              setBotaoAtivo(["none","none","none","botao-ativo"])
+              setEtapaAtual(3)
+            }}
             variant="outline-danger"
-            className="custom-button botao-conhecimento"
+            className={`custom-button botao-conhecimento ${botaoAtivo[3]}`}
             id="button-addon1"
           >
             Versionamento

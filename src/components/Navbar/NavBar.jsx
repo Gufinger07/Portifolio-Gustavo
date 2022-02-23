@@ -18,7 +18,7 @@ function NavBar() {
       >
         <Nav className="nav">
           <Nav.Item className="nav-itens">
-            <Link to="container-sobre" smooth={true} duration={1000}>
+            <Link to="container-sobre" smooth={true} duration={1}>
               <Nav.Link active>Sobre Mim</Nav.Link>
             </Link>
           </Nav.Item>
@@ -26,20 +26,20 @@ function NavBar() {
             <Link
               to="card-conhecimento__conhecimento"
               smooth={true}
-              duration={1000}
+              duration={1}
             >
               <Nav.Link active>Conhecimentos</Nav.Link>
             </Link>
           </Nav.Item>
           <Nav.Item className="nav-itens">
-            <Link to="container-projetos" smooth={true} duration={1000}>
+            <Link to="container-projetos" smooth={true} duration={1}>
               <Nav.Link className="nav-itens__item" active>
                 Projetos
               </Nav.Link>
             </Link>
           </Nav.Item>
           <Nav.Item className="nav-itens">
-            <Link to="card-contato" smooth={true} duration={1000}>
+            <Link to="card-contato" smooth={true} duration={1}>
               {" "}
               <Nav.Link active>Contato</Nav.Link>{" "}
             </Link>

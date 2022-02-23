@@ -37,7 +37,8 @@
   letter-spacing: 0.01rem;
   font-size: 1.1rem;
   font-weight: 500;
-  letter-spacing: .05em
+  letter-spacing: .05em;
+  font-style: italic;
 }
 
 .card-projetos__grupobotoes {
