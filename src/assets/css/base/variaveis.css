@@ -1,0 +1,17 @@
+:root {
+    --fonte--principal: 'EB Garamond', serif;
+    --fonte--secundaria: 'EB Garamond', serif;
+    --fonte--terciaria: 'Open Sans', sans-serif;
+
+    --cor--principal: #0f4c80;
+    --cor--secundaria: #758BFD ;
+    --cor--terciaria: rgb(255, 255, 255); 
+    
+
+
+    --sobra--: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+
+
+   

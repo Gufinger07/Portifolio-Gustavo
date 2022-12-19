@@ -1,0 +1,85 @@
+.card-contato__titulo {
+    font-family: var(--fonte--secundaria);
+    color: var(--cor--principal);
+    margin-top: 2rem;
+    font-size: 2.7rem;
+    font-weight: 900;
+  }
+
+  .card-contato {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  .card-contato__texto {
+    font-family: var(--fonte--secundaria);
+    font-size: 1rem;
+    margin-top: 1rem;
+
+  }
+  .card-contato__corpo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+  }
+
+  .card-contato__rodape {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2rem;
+  }
+  .card-contato__grupo {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .card-contato__card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 200px;
+  }
+
+  .card-contato__imagem {
+      width: 128px;
+  }
+
+  .card-card__titulo {
+      font-size: 1rem;
+      margin-top: 1rem;
+      font-family: var(--fonte--secundaria);
+  }
+
+  .card-card__texto {
+      
+      margin-top: 1rem;
+      font-family: var(--fonte--secundaria);
+  }
+
+  .card-card-span {
+      margin-top: 1rem;
+  }
+  @media screen and (min-width: 991px) {
+    .card-contato__corpo {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .card-contato__grupo {
+        flex-direction: row;
+    }
+    .card-card__texto {
+        font-size: 1.4rem;
+    }
+    .card-card__titulo {
+        font-size: 1.4rem;
+    }
+    .card-contato__texto {
+        font-size: 1.4rem;
+    }
+}

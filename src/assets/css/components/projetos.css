@@ -1,0 +1,114 @@
+.container-projetos {
+  background-color: var(--cor--principal);
+  margin-top: 3rem;
+  height: auto;
+}
+
+.card-projetos__title {
+  font-size: 1.5rem;
+}
+
+.card-projetos__titulo {
+  font-size: 2.7rem;
+  font-weight: 900;
+  font-family: var(--fonte--secundaria);
+  color: var(--cor--terciaria);
+  align-self: center;
+}
+
+.card-projetos__projetospar {
+  height: 33rem;
+  width: 16rem;
+  background-color: var(--cor--principal);
+  display: flex;
+  align-items: center;
+  
+}
+
+.botao-projetos__git {
+  background-color: var(--cor--secundaria);
+}
+
+.card-projetos {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-projetos__texto {
+  font-family: var(--fonte--principal);
+  letter-spacing: 0.01rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: .05em;
+  font-style: italic;
+}
+
+.card-projetos__grupobotoes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.card-projetos__corpo {
+  display: none;
+ 
+  
+}
+.card-projetos__projetos:hover .card-projetos__corpo{
+  display: initial;
+  
+}
+.card-projetos__projetos:hover {
+  height: 33rem;
+}
+
+.botao-projetos__vermais {
+  background-color: #94618e;
+  border: none;
+}
+
+.botao-projetos__vermais:hover {
+  background-color: #9d5594;
+}
+
+.card-projetos__projetospar:hover .card-projetos__corpo{
+  display: initial
+}
+
+.card-projetos__projetospar:hover {
+  height: 33rem;
+}
+
+.card-projetos__projetospar:hover .botao-projetos__vermais{
+  background-color: var(--cor--terciaria);
+  color: black;
+}
+
+.card-projetos__projetospar:hover .card-projetos__texto, .card-projetos__title {
+  color: var(--cor--terciaria);
+}
+
+.card-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+@media screen and (min-width: 454px) {
+  .card-projetos__projetospar {
+    width: 25rem;
+  }
+} 
+
+@media screen and (min-width: 724px) {
+  .card-display {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}

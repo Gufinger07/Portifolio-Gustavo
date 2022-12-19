@@ -1,0 +1,71 @@
+.container-sobre {
+    
+    
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor--principal);
+}
+
+.card-sobre {
+    background-color: var(--cor--principal);
+    font-family: var(--fonte--secundaria);
+    width: 40rem;
+    height: 37rem;
+    border: none;
+}
+
+.card-sobre__titulo {
+    color: white;
+    font-size: 2.7rem;
+    font-weight: 900;
+   
+}
+
+.card-sobre__paragrafo {
+    
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    letter-spacing: .05em;
+    font-style: italic;
+}
+
+.card-imagem__sobre {
+    display: none;
+    width: 600px;
+    height: 500px;
+    margin-right: 10rem;
+    
+}
+
+.card-sobre__cartao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-botao__curriculo {
+    background-color: var(--cor--secundaria);
+    color: black;
+    
+}
+
+.card-botao__curriculo:hover {
+    background-color: var(--cor--secundaria);
+    
+} 
+    
+@media screen and (min-width: 865px){
+    
+    .card-sobre__paragrafo {
+        font-size: 1.4rem;
+    }
+}
+@media screen and (min-width: 1124px) {
+    .card-imagem__sobre {
+        display: initial; 
+        margin-left: 2rem;  
+    }
+}
