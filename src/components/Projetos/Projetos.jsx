@@ -32,7 +32,7 @@ function Conhecimento() {
               
               <Card.Text className="card-projetos__texto">
                 Trabalho de conclusão de curso: Aplicação web focada em agendamento de consultas.
-                Link para acessar 
+                
               </Card.Text>
               <div className="card-projetos__grupobotoes">
                

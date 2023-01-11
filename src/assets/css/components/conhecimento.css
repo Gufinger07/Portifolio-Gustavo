@@ -28,6 +28,10 @@
 
 }
 
+.card-conhecimento:hover {
+  transform: scale(1,1.1);
+}
+
 .card-corpo {
   display: flex;
   flex-direction: column;
@@ -48,6 +52,7 @@
   background-color: var(--cor--secundaria);
   color: rgb(255, 255, 255);
   border-color: var(--cor--secundaria);
+  margin: 0.3rem;
 }
 
 .botao-conhecimento:hover {
@@ -59,6 +64,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--cor--principal);
   
 }
 

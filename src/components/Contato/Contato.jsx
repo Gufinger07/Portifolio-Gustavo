@@ -66,7 +66,7 @@ function Contato() {
         </Card>
       </CardGroup>
       <div className="card-contato__rodape">
-        <p className="card-contato__texto">Feito por Gustavo Coelho Finger</p>
+        <p className="card-contato__texto">Desenvolvido por Gustavo Coelho Finger</p>
       </div>
     </>
   );

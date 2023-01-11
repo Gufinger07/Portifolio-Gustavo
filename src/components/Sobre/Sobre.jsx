@@ -3,7 +3,7 @@ import { Card, Button } from "react-bootstrap";
 
 import "../../assets/css/components/sobre.css";
 import imagemIlustrativa from "../../assets/img/compu.png";
-import pdf from "./curriculo.pdf";
+import pdf from "./cur.pdf";
 function Sobre() {
   return (
     <div className="container-sobre">
