@@ -49,7 +49,7 @@ function Conhecimento() {
           <Card className="card-projetos__projetospar">
             <Card.Img variant="top" src={imagemSeb} />
             <Card.Title className="card-projetos__title">
-                Agendamento de consultas
+                Mapeamento de lojas de Moda
               </Card.Title>
             <Card.Body className="card-projetos__corpo">
               
@@ -71,7 +71,7 @@ function Conhecimento() {
           <Card className="card-projetos__projetospar">
             <Card.Img variant="top" src={imagemGesto} />
             <Card.Title className="card-projetos__title">
-                Agendamento de consultas
+                G-Estoque
               </Card.Title>
             <Card.Body className="card-projetos__corpo">
               

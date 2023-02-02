@@ -4,7 +4,7 @@
   margin-top: 1rem;
   align-items: center;
   justify-content: space-around;
- 
+ height: auto;
 }
 
 
@@ -16,6 +16,23 @@
   width: 100%;
 }
 
+.img-habilidades {
+  width: 100px;
+}
+
+.card-habilidades {
+  width: 300px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 2rem;
+}
+.texto-card {
+  color: black;
+  font-size: 1.2rem;
+  text-align: center;
+}
 
 .custom-button:focus {
   outline: none !important;
@@ -24,11 +41,20 @@
 }
 
 .card-conhecimento {
-  width: 135px
-
+  width: 135px;
+  height: auto;
+}
+.cards-habilidade {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  
 }
 
-.card-conhecimento:hover {
+.card-conhecimento-top:hover {
   transform: scale(1,1.1);
 }
 
@@ -69,18 +95,31 @@
 }
 
 .card-conhecimento__titulo {
-  font-family: var(--fonte--secundaria);
+  font-family: "neon";
   color: var(--cor--principal);
   margin-top: 2rem;
-  font-size: 2.7rem;
+  font-size: 1.8rem;
   font-weight: 900;
-
+ letter-spacing: 0.5rem;
 }
 
 @media screen and (min-width: 620px){
   .grupo-botoes {
     width: 35rem;
     flex-direction: row;
+  }
+
+  .cards-habilidade {
+    flex-direction: row;
+    margin: 0;
+  }
+  .card-conhecimento__titulo {
+    font-family: "neon";
+    color: var(--cor--principal);
+    margin-top: 2rem;
+    font-size: 2.7rem;
+    font-weight: 900;
+   letter-spacing: 0.5rem;
   }
   
 }

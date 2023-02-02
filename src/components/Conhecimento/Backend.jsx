@@ -10,21 +10,21 @@ function Backend() {
     return(
         <div className="grupo-conhecimentos">
           <Card className="card-conhecimento">
-            <Card.Img variant="top" src={python} alt="imagem ilustrativa python"/>
+            <Card.Img className="card-conhecimento-top" variant="top" src={python} alt="imagem ilustrativa python"/>
             <Card.Body className="card-corpo">
               <Card.Title>Python</Card.Title>
              
             </Card.Body>
           </Card>
           <Card className="card-conhecimento">
-            <Card.Img variant="top" src={node} alt="imagem ilustrativa node-js"/>
+            <Card.Img className="card-conhecimento-top" variant="top" src={node} alt="imagem ilustrativa node-js"/>
             <Card.Body className="card-corpo">
               <Card.Title>Node-Js</Card.Title>
              
             </Card.Body>
           </Card>
           <Card className="card-conhecimento">
-            <Card.Img variant="top" src={java} alt="imagem ilustrativa java"/>
+            <Card.Img className="card-conhecimento-top" variant="top" src={java} alt="imagem ilustrativa java"/>
             <Card.Body className="card-corpo">
               <Card.Title>Java</Card.Title>
               

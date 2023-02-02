@@ -28,7 +28,7 @@ function NavBar() {
               smooth={true}
               duration={1}
             >
-              <Nav.Link active>Conhecimentos</Nav.Link>
+              <Nav.Link active>Tecnologias / Conhecimentos</Nav.Link>
             </Link>
           </Nav.Item>
           <Nav.Item className="nav-itens">

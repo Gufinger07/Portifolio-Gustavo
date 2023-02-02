@@ -1,5 +1,6 @@
 .card-contato__titulo {
-    font-family: var(--fonte--secundaria);
+    font-family: "neon";
+    letter-spacing: 0.5rem;
     color: var(--cor--principal);
     margin-top: 2rem;
     font-size: 2.7rem;
@@ -16,7 +17,9 @@
   .card-contato__texto {
     font-family: var(--fonte--secundaria);
     font-size: 1rem;
-    margin-top: 1rem;
+   
+    align-items: center !important;
+    
 
   }
   .card-contato__corpo {
@@ -57,7 +60,7 @@
   }
 
   .card-card__texto {
-      
+      align-self: center;
       margin-top: 1rem;
       font-family: var(--fonte--secundaria);
   }
@@ -65,7 +68,23 @@
   .card-card-span {
       margin-top: 1rem;
   }
+
+  .icone-contato-titulo {
+    width: 1rem;
+    margin-left: 0.5rem;
+  }
+  .texto-contato {
+   height: 50px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+  }
   @media screen and (min-width: 991px) {
+    .icone-contato-titulo {
+        width: 2rem;
+        
+      }
     .card-contato__corpo {
         flex-direction: row;
         justify-content: space-around;

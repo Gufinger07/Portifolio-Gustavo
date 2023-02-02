@@ -4,9 +4,12 @@ import { useState } from "react";
 import "../../assets/css/components/contato.css";
 import { Link } from "react-scroll";
 import { CopyToClipboard } from "react-copy-to-clipboard";
-import celular from "../../assets/img/contato-telefone.png";
-import email from "../../assets/img/contato-email.png";
-import website from "../../assets/img/contato-website.png";
+import celular from "../../assets/img/wpp.svg";
+import email from "../../assets/img/email.svg";
+import website from "../../assets/img/site.svg";
+import carinha from "../../assets/img/carinha.svg";
+
+
 
 function Contato() {
   const [mensagemSpan, setMensagem] = useState("");
@@ -15,7 +18,11 @@ function Contato() {
     <>
       <div className="card-contato">
         <Card.Title className="card-contato__titulo">Contato</Card.Title>
-        <p className="card-contato__texto">Entre em Contato Comigo (◕‿◕)</p>
+        <div className="texto-contato">
+          <p className="card-contato__texto">Entre em Contato Comigo</p>
+          <img className="icone-contato-titulo" src={carinha}></img>
+        </div>
+        
       </div>
       <CardGroup className="card-contato__grupo">
         <Card className="card-contato__card">

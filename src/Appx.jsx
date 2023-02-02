@@ -8,6 +8,7 @@ import Sobre from "./components/Sobre/Sobre"
 import Conhecimento from "./components/Conhecimento/Conhecimento"
 import Projetos from "./components/Projetos/Projetos"
 import Contato from "./components/Contato/Contato"
+import Habilidades from "./components/Habilidades/Habilidades";
 
 
 function Appx() {
@@ -17,6 +18,7 @@ function Appx() {
       <Home />
       <Sobre />
       <Conhecimento />
+      <Habilidades />
       <Projetos />
       <Contato />
       

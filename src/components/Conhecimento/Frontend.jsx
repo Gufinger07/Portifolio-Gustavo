@@ -13,42 +13,42 @@ function Frontend() {
     return(
         <div className="grupo-conhecimentos">
           <Card className="card-conhecimento">
-            <Card.Img variant="top" src={html} alt="imagem ilustrativa html" />
+            <Card.Img className="card-conhecimento-top" variant="top" src={html} alt="imagem ilustrativa html" />
             <Card.Body className="card-corpo"> 
               <Card.Title>Html 5</Card.Title>
               
             </Card.Body>
           </Card>
           <Card className="card-conhecimento">
-            <Card.Img variant="top" src={css} alt="imagem ilustrativa css"/>
+            <Card.Img className="card-conhecimento-top" variant="top" src={css} alt="imagem ilustrativa css"/>
             <Card.Body className="card-corpo">
               <Card.Title>CSS</Card.Title>
               
             </Card.Body>
           </Card>
           <Card className="card-conhecimento">
-            <Card.Img variant="top" src={javascript} alt="imagem ilustrativa javascript"/>
+            <Card.Img className="card-conhecimento-top" variant="top" src={javascript} alt="imagem ilustrativa javascript"/>
             <Card.Body className="card-corpo">
               <Card.Title>JavaScript</Card.Title>
               
             </Card.Body>
           </Card>
           <Card className="card-conhecimento">
-            <Card.Img variant="top" src={react} alt="imagem ilustrativa react"/>
+            <Card.Img className="card-conhecimento-top" variant="top" src={react} alt="imagem ilustrativa react"/>
             <Card.Body className="card-corpo">
               <Card.Title>React Js</Card.Title>
               
             </Card.Body>
           </Card>
           <Card className="card-conhecimento">
-            <Card.Img variant="top" src={jquery} alt="imagem ilustrativa jquery"/>
+            <Card.Img className="card-conhecimento-top" variant="top" src={jquery} alt="imagem ilustrativa jquery"/>
             <Card.Body className="card-corpo">
               <Card.Title>jQuery</Card.Title>
               
             </Card.Body>
           </Card>
           <Card className="card-conhecimento">
-            <Card.Img variant="top" src={bootstrap} alt="imagem ilustrativa bootstrap"/>
+            <Card.Img className="card-conhecimento-top" variant="top" src={bootstrap} alt="imagem ilustrativa bootstrap"/>
             <Card.Body className="card-corpo">
               <Card.Title>Bootstrap</Card.Title>
              

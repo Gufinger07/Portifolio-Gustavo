@@ -23,7 +23,7 @@ function Conhecimento() {
     <>
       <div className="card-conhecimento__conhecimento">
         <Card.Title className="card-conhecimento__titulo">
-          Conhecimentos
+          Tecnologias 
         </Card.Title>
       </div>
       <div className="container-conhecimento">

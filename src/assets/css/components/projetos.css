@@ -11,7 +11,8 @@
 .card-projetos__titulo {
   font-size: 2.7rem;
   font-weight: 900;
-  font-family: var(--fonte--secundaria);
+  font-family: "neon";
+  letter-spacing: 0.5rem;
   color: var(--cor--terciaria);
   align-self: center;
 }

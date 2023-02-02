@@ -9,7 +9,7 @@ function Home() {
       <Card className="card">
         <Card.Body>
           <Card.Title className="card-texto">
-            Olá, meu nome é Gustavo Finger e atuo como Desenvolvedor Front-End
+            Oi, me chamo Gustavo Finger e atuo precipuamente como Desenvolvedor Front-End
             <span className="span"></span>
           </Card.Title>
           <Button
