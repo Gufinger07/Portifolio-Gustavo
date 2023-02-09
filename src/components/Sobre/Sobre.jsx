@@ -1,12 +1,13 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
-
+import Flip from 'react-reveal/Flip';
 import "../../assets/css/components/sobre.css";
-import imagemIlustrativa from "../../assets/img/compu.png";
+import imagemIlustrativa from "../../assets/img/img2.png";
 import pdf from "./cur.pdf";
 function Sobre() {
   return (
     <div className="container-sobre">
+      <Flip top>
       <img
         className="card-imagem__sobre"
         src={imagemIlustrativa}
@@ -36,6 +37,8 @@ function Sobre() {
           </Button>
         </Card.Body>
       </Card>
+        </Flip>
+      
     </div>
   );
 }

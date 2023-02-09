@@ -18,8 +18,10 @@ html {
 }
 
 
+
 .root {
   width: 100%;
+  
 }
 @font-face {
   font-family: "neon";

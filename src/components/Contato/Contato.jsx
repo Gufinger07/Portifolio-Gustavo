@@ -20,7 +20,7 @@ function Contato() {
         <Card.Title className="card-contato__titulo">Contato</Card.Title>
         <div className="texto-contato">
           <p className="card-contato__texto">Entre em Contato Comigo</p>
-          <img className="icone-contato-titulo" src={carinha}></img>
+          <img alt="nada" className="icone-contato-titulo" src={carinha}></img>
         </div>
         
       </div>

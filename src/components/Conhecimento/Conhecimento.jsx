@@ -5,6 +5,8 @@ import Frontend from "../Conhecimento/Frontend";
 import Backend from "../Conhecimento/Backend";
 import BancoDeDados from "../Conhecimento/BancoDeDados";
 import Versionamento from "../Conhecimento/Versionamento";
+import Slide from 'react-reveal/Slide';
+
 
 function Conhecimento() {
   const [etapaAtual, setEtapaAtual] = useState(0);
@@ -21,11 +23,13 @@ function Conhecimento() {
 
   return (
     <>
-      <div className="card-conhecimento__conhecimento">
+    <Slide left>
+    <div className="card-conhecimento__conhecimento">
         <Card.Title className="card-conhecimento__titulo">
           Tecnologias 
         </Card.Title>
       </div>
+      
       <div className="container-conhecimento">
         <div className="grupo-botoes">
           <Button
@@ -76,6 +80,8 @@ function Conhecimento() {
         </div>
         {etapas[etapaAtual]}
       </div>
+    </Slide>
+      
     </>
   );
 }

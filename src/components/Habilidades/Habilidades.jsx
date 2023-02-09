@@ -6,13 +6,15 @@ import resp from "../../assets/img/resp.svg"
 import ux from "../../assets/img/ux.svg"
 import acce from "../../assets/img/acce.svg"
 import web from "../../assets/img/web.svg"
+import Slide from 'react-reveal/Slide';
 
 function Habilidades() {
   
 
   return (
     <>
-      <div className="card-conhecimento__conhecimento">
+    <Slide right>
+    <div className="card-conhecimento__conhecimento">
         <Card.Title className="card-conhecimento__titulo">
           Conhecimentos
         </Card.Title>
@@ -58,6 +60,9 @@ function Habilidades() {
      
         
       </div>
+        </Slide>
+    
+     
     </>
   );
 }

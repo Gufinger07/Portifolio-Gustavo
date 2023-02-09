@@ -4,6 +4,21 @@
   height: auto;
 }
 
+#contained-modal-title-vcenter {
+  font-weight: bold;
+}
+
+
+
+.modal-content {
+  border-radius: 2rem !important;
+}
+.titulo-modal {
+  
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
 .card-projetos__title {
   font-size: 1.5rem;
 }
@@ -23,7 +38,11 @@
   background-color: var(--cor--principal);
   display: flex;
   align-items: center;
-  
+  cursor: pointer;
+}
+
+.card-projetos__projetospar:hover {
+  opacity: 0.5;
 }
 
 .botao-projetos__git {
@@ -98,7 +117,22 @@
   align-items: center;
 }
 
+.modal-body  {
+  display: flex;
+  flex-direction: column !important;
 
+}
+
+.botoes-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botao-modal {
+  margin: 1rem !important;
+  
+}
 
 @media screen and (min-width: 454px) {
   .card-projetos__projetospar {
